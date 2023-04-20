@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "name": "All tests in project",
+            "type": "python-tests",
+            "testFramework": "pytest",
+            "target": "",
+            "arguments": [],
+            "environment": {
+              "PYTHONPATH": "$PROJECT_DIR$/"  
+            },
+        }
+    ]
+}
