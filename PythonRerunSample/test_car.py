@@ -13,12 +13,12 @@ class TestCarSideEffects(unittest.TestCase):
 
     def test_brake(self):
         car.brake()
-        assert car.speed == 30000
+        assert car.speed == 30
 
     def test_brake_again(self):
         car.brake()
-        assert car.speed == 250
+        assert car.speed == 25
 
     def test_brake_another_time(self):
         car.brake()
-        assert car.speed == 250
+        assert car.speed == 25
