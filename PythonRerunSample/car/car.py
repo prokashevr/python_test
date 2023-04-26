@@ -3,7 +3,7 @@ class Car:
         self.speed = speed
 
     def accelerate(self):
-        self.speed += 5
+        self.speed += 55
 
     def brake(self):
         self.speed -= 5
